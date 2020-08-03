@@ -33,7 +33,9 @@ header h2{
 .navbar{
     background-color: #901cad;
 }
-.wrap{
-    white-space:nowrap;
-}
 
+.tab{
+    border:1px solid white;
+    border-top: none;
+    padding:10px;
+}
