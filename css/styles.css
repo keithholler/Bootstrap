@@ -35,7 +35,7 @@ header h2{
 }
 
 .tab{
-    border:1px solid white;
+    border:1px solid #DDD;
     border-top: none;
     padding:10px;
 }
