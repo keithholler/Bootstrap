@@ -12,3 +12,26 @@ $(function() {
         }
     });
 });
+
+
+// Original with two buttons
+
+        // $("#loginbtn").click(function(){
+        //     $('#loginModal').modal('show');
+        // });
+
+        // $("#reservebtn").click(function(){
+        //     $('#reserveModal').modal('show');
+        // });
+
+
+// New with one function
+
+    $('#loginbtn, #reservebtn').click(function () {
+    if (this.id == 'loginbtn') {
+        $('#loginModal').modal('show');
+    }
+    else if (this.id == 'reservebtn') {
+        $('#reserveModal').modal('show');
+    }
+    });
